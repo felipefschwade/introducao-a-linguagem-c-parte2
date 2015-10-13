@@ -1,6 +1,7 @@
 #include <stdio.h> -> Utilizado para incluir as bibliotecas da linguagem C
 #include <stdlib.h> -> biblioteca padrão de C
 #include <time.h> -> biblioteca de C que contém funções relacionadas a tempo.
+#include <string.h> -> biblioteca de C contendo as funções relacionadas a String
 #define SYMBOL value -> define uma constante.
 
 
@@ -16,6 +17,7 @@ srand(funcaonúmerica) -> Passa uma função para impedir o rand de gerar númer
 tipo nomevar[numposicoes] -> Para declarar um array  
 sprintf(variavelchar, "Palavra") -> Utilizado para armazenar na variavelchar a "palavra" e o último caractere deve ser um '\0'
 ! -> Indicador de negação
+strlen(var) -> Retorna o tamanho da var
 
 Sintaxe do For:
 for (int i = 0; i < count; ++i)

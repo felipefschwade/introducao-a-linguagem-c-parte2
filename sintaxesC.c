@@ -8,12 +8,13 @@ int main() {/*Code*/} -> Função necessária para escrever programas em C
 printf("%s\n"); -> Para imprimir algo na tela. 
 tipo nomevariavel = valor -> Para Definir variáveis em C
 printf("%d", var) -> Para imprimir variáveis do tipo inteiro;
-scanf("%tipo", &variavel) -> Para realizar leituras do teclado (%d para int, %u para decimal sem sinal, %l para long int, %f para float, %lf para double, %c para char ); 
+scanf("%tipo", &variavel) -> Para realizar leituras do teclado (%d para int, %u para decimal sem sinal, %l para long int, %f para float, %lf para double, %c para char, %s para String ); 
 abs(numero) -> Para Conseguir o número absoluto de um número;
 int num = rand() -> Para criar números aleatórios;
 num % numero -> Para gerar restos de divisões entre 0 e numero;
 srand(funcaonúmerica) -> Passa uma função para impedir o rand de gerar números iguais 
 tipo nomevar[numposicoes] -> Para declarar um array  
+sprintf(variavelchar, "Palavra") -> Utilizado para armazenar na variavelchar a "palavra" e o último caractere deve ser um '\0'
 
 Sintaxe do For:
 for (int i = 0; i < count; ++i)

@@ -19,6 +19,8 @@ sprintf(variavelchar, "Palavra") -> Utilizado para armazenar na variavelchar a "
 ! -> Indicador de negação
 strlen(var) -> Retorna o tamanho da var
 
+//Sempre que for utilizar a leitura de %c deixar um espaço na frente do %c para queo ENTER não fique no buffer e atrapalhe a exibição do código
+
 Sintaxe do For:
 for (int i = 0; i < count; ++i)
 {

@@ -15,6 +15,7 @@ num % numero -> Para gerar restos de divisões entre 0 e numero;
 srand(funcaonúmerica) -> Passa uma função para impedir o rand de gerar números iguais 
 tipo nomevar[numposicoes] -> Para declarar um array  
 sprintf(variavelchar, "Palavra") -> Utilizado para armazenar na variavelchar a "palavra" e o último caractere deve ser um '\0'
+! -> Indicador de negação
 
 Sintaxe do For:
 for (int i = 0; i < count; ++i)
@@ -23,6 +24,13 @@ for (int i = 0; i < count; ++i)
 	break; -> para quebrar um loop
 	continue; -> Não executa o resto do código porém continua o loop
 }
-
+sintaxe do while
+while(var){
+	//code
+}
+Sintaxe do Do:
+do {
+	//code
+} while (var);
 gcc programa.c -o programa.extensão
 gcc -std=c99 foo.c -o foo -> Para erros de definição do c99

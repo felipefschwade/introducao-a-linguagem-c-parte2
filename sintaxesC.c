@@ -3,16 +3,19 @@
 #include <time.h> -> biblioteca de C que contém funções relacionadas a tempo.
 #define SYMBOL value -> define uma constante.
 
+
 int main() {/*Code*/} -> Função necessária para escrever programas em C
 printf("%s\n"); -> Para imprimir algo na tela. 
 tipo nomevariavel = valor -> Para Definir variáveis em C
 printf("%d", var) -> Para imprimir variáveis do tipo inteiro;
-scanf("%tipo", &variavel) -> Para realizar leituras do teclado (%d para int, %u para decimal sem sinal, %l para long int, %f para float, %lf para double); 
+scanf("%tipo", &variavel) -> Para realizar leituras do teclado (%d para int, %u para decimal sem sinal, %l para long int, %f para float, %lf para double, %c para char ); 
 abs(numero) -> Para Conseguir o número absoluto de um número;
 int num = rand() -> Para criar números aleatórios;
 num % numero -> Para gerar restos de divisões entre 0 e numero;
 srand(funcaonúmerica) -> Passa uma função para impedir o rand de gerar números iguais 
-Sintaxe do For:g
+tipo nomevar[numposicoes] -> Para declarar um array  
+
+Sintaxe do For:
 for (int i = 0; i < count; ++i)
 {
 	/* code */

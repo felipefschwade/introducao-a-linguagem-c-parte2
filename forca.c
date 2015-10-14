@@ -7,11 +7,10 @@ void abertura(){
 	printf("* JOGO DE FORCA *\n");
 	printf("*****************\n");
 }
-void chuta(){
+void chuta(char chutes[26], int tentativas){
 	char chute;
 	scanf(" %c", &chute);
 	chutes[tentativas] = chute;
-	tentativas++;
 }
 
 int main(){
@@ -41,12 +40,12 @@ int main(){
 			} else{
 				printf("_ ");	
 			}
-			
+			 
 		}
 		printf("\n");
 		
-		chuta();
-
+		chuta(chutes, tentativas);
+		tentativas++;
 	}while(!acertou && !enforcou);
 }
 

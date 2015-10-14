@@ -38,3 +38,8 @@ do {
 } while (var);
 gcc programa.c -o programa.extensão
 gcc -std=c99 foo.c -o foo -> Para erros de definição do c99
+
+Definindo Funções em C:
+void nomefunca{
+	codigo
+}

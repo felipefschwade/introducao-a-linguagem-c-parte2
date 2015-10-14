@@ -2,7 +2,21 @@
 #include <stdlib.h>
 #include <string.h>
 
+void abertura(){
+	printf("*****************\n");
+	printf("* JOGO DE FORCA *\n");
+	printf("*****************\n");
+}
+void chuta(){
+	char chute;
+	scanf(" %c", &chute);
+	chutes[tentativas] = chute;
+	tentativas++;
+}
+
 int main(){
+	abertura();
+
 	char palavrasecreta[20];
 	sprintf(palavrasecreta, "MELANCIA");
 
@@ -30,11 +44,9 @@ int main(){
 			
 		}
 		printf("\n");
-		char chute;
-		scanf(" %c", &chute);
-
-		chutes[tentativas] = chute;
-		tentativas++;
+		
+		chuta();
 
 	}while(!acertou && !enforcou);
 }
+

@@ -40,6 +40,7 @@ gcc programa.c -o programa.extensão
 gcc -std=c99 foo.c -o foo -> Para erros de definição do c99
 
 Definindo Funções em C:
-void nomefunca{
+void nomefunca(tipo var){
 	codigo
 }
+int* Var -> Ponteiro para a Var do tipo int;

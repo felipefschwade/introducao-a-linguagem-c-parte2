@@ -40,7 +40,8 @@ gcc programa.c -o programa.extensão
 gcc -std=c99 foo.c -o foo -> Para erros de definição do c99
 
 Definindo Funções em C:
-void nomefunca(tipo var){
+void/tipo e dado a Retornar nomefunca(tipo var){
 	codigo
 }
 int* Var -> Ponteiro para a Var do tipo int;
+Arrays são ponteiros e podem ser manipulados livremente por meio de funções, sem a necessidade do uso da *;

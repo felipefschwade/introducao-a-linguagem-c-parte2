@@ -45,3 +45,6 @@ void/tipo e dado a Retornar nomefunca(tipo var){
 }
 int* Var -> Ponteiro para a Var do tipo int;
 Arrays são ponteiros e podem ser manipulados livremente por meio de funções, sem a necessidade do uso da *;
+
+Arquivos de extansão .h podem ser utilizados para conter a assinatura das funções que serão utilizadas
+em um programa e imperdir erros de compilção.

@@ -1,6 +1,7 @@
 #include <stdio.h>
 #include <stdlib.h>
 #include <string.h>
+#include "forca.h"
 
 char palavrasecreta[20];
 int chutesdados = 0;
@@ -18,16 +19,6 @@ void chuta(){
 	(chutesdados)++;
 }
 
-int jachutou(char letra){
-	int achou = 0;
-	for (int j = 0; j < chutesdados; ++j){
-		if(chutes[j] == letra){
-			achou = 1;
-			break;
-		}
-	}
-	return achou;
-}
 void desenhaforca(){
 	for (int i = 0; i < strlen(palavrasecreta); ++i){
 		int achou = jachutou(palavrasecreta[i]);
@@ -66,6 +57,16 @@ int acertou(){
 		}
 	}
 	return 1;
+}
+int jachutou(char letra){
+	int achou = 0;
+	for (int j = 0; j < chutesdados; ++j){
+		if(chutes[j] == letra){
+			achou = 1;
+			break;
+		}
+	}
+	return achou;
 }
 
 int main(){

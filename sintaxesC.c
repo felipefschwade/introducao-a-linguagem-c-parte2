@@ -49,8 +49,10 @@ Arrays são ponteiros e podem ser manipulados livremente por meio de funções, 
 Arquivos de extansão .h podem ser utilizados para conter a assinatura das funções que serão utilizadas
 em um programa e imperdir erros de compilção.
 
-fopen("arquivo.txt", "utilização(r para read)"); -> Devolve um ponteiro de um arquivo
+fopen("arquivo.txt", "utilização(r para read, r+ para read e write)"); -> Devolve um ponteiro de um arquivo
 fclose(arquivo); -> Para fechar um arquivo
 fscanf(arquivo, "%tipo", &var); -> Para assimilar um valor do arquivo a uma variável
-
+(Sempre deixar o número de plavras na primeira linha para facilitar a leitura)
+fprintf(arquivo, "\n%s", variável);
 exit(numero > 0) -> Utilizado para fechar o programa;
+fseek(arquivo, posicao, CONSTANTE(SEEK_SET Para apontar para posicao, SEEK_END Para posicionar no final do arquivo));

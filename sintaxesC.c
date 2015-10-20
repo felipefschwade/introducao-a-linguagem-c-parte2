@@ -56,3 +56,5 @@ fscanf(arquivo, "%tipo", &var); -> Para assimilar um valor do arquivo a uma vari
 fprintf(arquivo, "\n%s", variável);
 exit(numero > 0) -> Utilizado para fechar o programa;
 fseek(arquivo, posicao, CONSTANTE(SEEK_SET Para apontar para posicao, SEEK_END Para posicionar no final do arquivo));
+
+if ternário: var >= num ? verdadeiro : falso;
